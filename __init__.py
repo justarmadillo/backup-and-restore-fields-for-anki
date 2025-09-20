@@ -138,7 +138,8 @@ def add_backup_restore_buttons(buttons: list[str], editor: Editor):
         func=on_backup_fields,
         tip="Backup fields and clear them (Ctrl+Alt+B)",
         label="Backup",
-        keys="Ctrl+Alt+B"
+        keys="Ctrl+Alt+B",
+        disables=False 
     )
 
     restore_button_html = editor.addButton(
@@ -147,7 +148,8 @@ def add_backup_restore_buttons(buttons: list[str], editor: Editor):
         func=on_restore_fields,
         tip="Restore fields and clear cache (Ctrl+Alt+R)",
         label="Restore",
-        keys="Ctrl+Alt+R"
+        keys="Ctrl+Alt+R",
+        disables=False  
     )
 
     # Combine the buttons into a single HTML string to ensure they always appear next to each other.
