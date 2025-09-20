@@ -1,0 +1,1 @@
+{"name": "Field State Backup & Restore (Configurable)", "package": "field_backup_restore_configurable", "main": "__init__.py", "config": {"enabled_notetypes": ["[IO-one by one]"], "ignored_backup_fields": ["Image", "Cache", "I0"]}}

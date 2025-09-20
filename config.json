@@ -1,0 +1,9 @@
+{
+    "enabled_notetypes": [
+        "IO-one by one"
+    ],
+    "ignored_backup_fields": [
+        "Image",
+        "Cache"
+    ]
+}
